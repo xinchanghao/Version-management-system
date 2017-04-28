@@ -1,0 +1,8 @@
+[ 2016-06-07T23:48:25+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.106757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029828s ]
+

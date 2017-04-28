@@ -1,0 +1,1216 @@
+[ 2016-06-13T11:55:43+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.100245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [8] Undefined index: loginid E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 15 行.
+
+[ 2016-06-13T11:55:43+08:00 ] ::1 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.051011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.051181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010972s ]
+
+[ 2016-06-13T11:55:43+08:00 ] ::1 /index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-06-13T11:55:43+08:00 ] ::1 /index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-06-13T11:55:47+08:00 ] ::1 /index.php/Admin/Public/deallogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0812s ]
+SQL: SELECT * FROM `users` WHERE `Username` = '111' AND `Password` = '111' LIMIT 1   [ RunTime:0.0128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-06-13T11:55:49+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `apps` ORDER BY DownloadCount desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT SUM(DownloadCount) AS tp_SUM FROM `apps` LIMIT 1   [ RunTime:0.0642s ]
+SQL: SELECT AVG(DownloadCount) AS tp_AVG FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(DownloadCount) AS tp_MAX FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(DownloadCount) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-06-13T11:55:56+08:00 ] ::1 /index.php/Admin/App/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 123 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2016-06-13T11:55:58+08:00 ] ::1 /index.php/Admin/App/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` WHERE `UserID` = 1 LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-06-13T11:56:02+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2016-06-13T11:56:08+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-06-13T11:56:11+08:00 ] ::1 /index.php/Admin/User/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: vo E:\Program\www\appstore\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 167 行.
+NOTIC: [8] Undefined variable: page E:\Program\www\appstore\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-06-13T11:56:14+08:00 ] ::1 /index.php/Admin/User/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Use of undefined constant Username - assumed 'Username' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 157 行.
+NOTIC: [8] Use of undefined constant Name - assumed 'Name' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 159 行.
+NOTIC: [8] Use of undefined constant Email - assumed 'Email' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-06-13T11:56:16+08:00 ] ::1 /index.php/Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+ERR: 非法操作:email
+
+[ 2016-06-13T11:56:54+08:00 ] ::1 /index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-06-13T11:56:55+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Undefined index: loginid E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 15 行.
+
+[ 2016-06-13T11:56:55+08:00 ] ::1 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-06-13T23:05:21+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030891s ]
+NOTIC: [8] Undefined index: loginid E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 15 行.
+
+[ 2016-06-13T23:05:21+08:00 ] ::1 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010863s ]
+
+[ 2016-06-13T23:05:22+08:00 ] ::1 /index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-06-13T23:05:22+08:00 ] ::1 /index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-06-13T23:05:27+08:00 ] ::1 /index.php/Admin/Public/deallogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0694s ]
+SQL: SELECT * FROM `users` WHERE `Username` = '111' AND `Password` = '111' LIMIT 1   [ RunTime:0.0132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-06-13T23:05:29+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `apps` ORDER BY DownloadCount desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT SUM(DownloadCount) AS tp_SUM FROM `apps` LIMIT 1   [ RunTime:0.0412s ]
+SQL: SELECT AVG(DownloadCount) AS tp_AVG FROM `apps` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT MAX(DownloadCount) AS tp_MAX FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(DownloadCount) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-06-13T23:08:13+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined index: loginid E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 15 行.
+
+[ 2016-06-13T23:08:13+08:00 ] ::1 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-06-13T23:08:13+08:00 ] ::1 /index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-06-13T23:08:14+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] Undefined index: loginid E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 15 行.
+
+[ 2016-06-13T23:08:14+08:00 ] ::1 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-06-13T23:08:16+08:00 ] ::1 /index.php/Admin/Public/deallogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `users` WHERE `Username` = '111' AND `Password` = '111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-06-13T23:08:17+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `apps` ORDER BY DownloadCount desc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT SUM(DownloadCount) AS tp_SUM FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(DownloadCount) AS tp_AVG FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(DownloadCount) AS tp_MAX FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(DownloadCount) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-06-13T23:08:21+08:00 ] ::1 /index.php/Admin/App/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 123 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-06-13T23:08:22+08:00 ] ::1 /index.php/Admin/App/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` WHERE `UserID` = 1 LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-06-13T23:08:24+08:00 ] ::1 /index.php/Admin/App/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` WHERE `UserID` = 1 LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-06-13T23:08:25+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-06-13T23:08:29+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-06-13T23:08:30+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-06-13T23:08:32+08:00 ] ::1 /index.php/Admin/User/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant Username - assumed 'Username' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 157 行.
+NOTIC: [8] Use of undefined constant Name - assumed 'Name' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 159 行.
+NOTIC: [8] Use of undefined constant Email - assumed 'Email' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-06-13T23:08:33+08:00 ] ::1 /index.php/Admin/User/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: vo E:\Program\www\appstore\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 167 行.
+NOTIC: [8] Undefined variable: page E:\Program\www\appstore\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-06-13T23:08:34+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-06-13T23:08:39+08:00 ] ::1 /index.php/Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+ERR: 非法操作:email
+
+[ 2016-06-13T23:12:07+08:00 ] ::1 /index.php/Admin/App/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 123 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-06-13T23:12:10+08:00 ] ::1 /index.php/Admin/App/detail/AppID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `apps` WHERE `AppID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `versions` [ RunTime:0.0595s ]
+SQL: SELECT * FROM `versions` WHERE `AppID` = 1  [ RunTime:0.0387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-06-13T23:12:10+08:00 ] ::1 /index.php/Admin/App/detail/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-06-13T23:12:13+08:00 ] ::1 /index.php/Admin/Version/add/AppID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-06-13T23:12:13+08:00 ] ::1 /index.php/Admin/Version/add/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-06-13T23:12:19+08:00 ] ::1 /index.php/Admin/App/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `apps` LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 123 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+NOTIC: [8] Undefined index: Username E:\Program\www\appstore\Application\Runtime\Cache\Admin\dbd906ddc91025eb4268d02ddafca63e.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-06-13T23:12:20+08:00 ] ::1 /index.php/Admin/App/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `apps` WHERE `UserID` = 1 LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-06-13T23:12:20+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-06-13T23:12:22+08:00 ] ::1 /index.php/Admin/App/review.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `apps` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2016-06-13T23:12:24+08:00 ] ::1 /index.php/Admin/User/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: vo E:\Program\www\appstore\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 167 行.
+NOTIC: [8] Undefined variable: page E:\Program\www\appstore\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-06-13T23:12:26+08:00 ] ::1 /index.php/Admin/User/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant Username - assumed 'Username' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 157 行.
+NOTIC: [8] Use of undefined constant Name - assumed 'Name' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 159 行.
+NOTIC: [8] Use of undefined constant Email - assumed 'Email' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-06-13T23:12:28+08:00 ] ::1 /index.php/Admin/User/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `users` WHERE `UserID` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant Username - assumed 'Username' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 157 行.
+NOTIC: [8] Use of undefined constant Name - assumed 'Name' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 159 行.
+NOTIC: [8] Use of undefined constant Email - assumed 'Email' E:\Program\www\appstore\Application\Runtime\Cache\Admin\7d8ae2935ec17149b860413b95104820.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-06-13T23:12:30+08:00 ] ::1 /index.php/Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+ERR: 非法操作:email
+
+[ 2016-06-13T23:13:44+08:00 ] ::1 /index.php/Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+ERR: 非法操作:email
+
+[ 2016-06-13T23:14:08+08:00 ] ::1 /index.php/Admin/User/help.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+ERR: 非法操作:help
+
+[ 2016-06-13T23:14:11+08:00 ] ::1 /index.php/Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+ERR: 非法操作:email
+
+[ 2016-06-13T23:14:20+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `apps` ORDER BY DownloadCount desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT SUM(DownloadCount) AS tp_SUM FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(DownloadCount) AS tp_AVG FROM `apps` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT MAX(DownloadCount) AS tp_MAX FROM `apps` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(DownloadCount) AS tp_count FROM `apps` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-06-13T23:14:38+08:00 ] ::1 /index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-06-13T23:14:40+08:00 ] ::1 /index.php/Admin/Index/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-06-13T23:14:46+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-06-13T23:15:03+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0041s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\Program\www\appstore\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `apps` (`Time`,`Pic`) VALUES ('1465830903','2016-06-13/575ecdf7f1e2d.png')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `apps` (`Time`,`Pic`) VALUES ('1465830903','2016-06-13/575ecdf7f1e2d.png')
+
+[ 2016-06-13T23:15:14+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0586s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\Program\www\appstore\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `apps` (`Time`,`Pic`) VALUES ('1465830914','2016-06-13/575ece0267fd2.png')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `apps` (`Time`,`Pic`) VALUES ('1465830914','2016-06-13/575ece0267fd2.png')
+
+[ 2016-06-13T23:15:35+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0380s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\Program\www\appstore\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: auto E:\Program\www\appstore\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `apps` (`AppID`,`AppName`,`UserID`,`SymbolName`,`CategoryID`,`AppStatus`,`AppDetail`,`Time`,`Pic`) VALUES ('123112','123','123','123','8','1','123','1465830935','2016-06-13/575ece1762011.png') [ RunTime:0.0947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2016-06-13T23:15:36+08:00 ] ::1 /index.php/Admin/App/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+NOTIC: [8] Undefined index: Name E:\Program\www\appstore\Application\Admin\Common\Controller\LC.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003437s ]
+
